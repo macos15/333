@@ -57,7 +57,7 @@ std::wstring GetUserDataDir()
 }
 std::wstring GetDiskCacheDir()
 {
-    std::wstring path = GetAppDir() + L"\\.\\User Data\\Cache";
+    std::wstring path = GetAppDir() + L"\\.\\User Data\\Default\\Cache";
 
     TCHAR temp[MAX_PATH];
     ::PathCanonicalize(temp, path.data());
