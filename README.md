@@ -7,6 +7,7 @@
 - 移除更新错误警告（因为是绿色版没有自动更新功能）
 
 地址：
-https://github.com/macos15/chrome_plus/actions/runs/6387269117
+https://github.com/macos15/333/actions/runs/6401194472
 
-用户数据名字，目录和浏览器原版一致。
+
+用户数据名字，目录和浏览器原版一致。缓存与用户数据同目录。
