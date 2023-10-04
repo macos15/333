@@ -55,6 +55,15 @@ std::wstring GetUserDataDir()
 
     return temp;
 }
+std::wstring GetDiskCacheDir()
+{
+    std::wstring path = GetAppDir() + L"\\.\\User Data\\Cache";
+
+    TCHAR temp[MAX_PATH];
+    ::PathCanonicalize(temp, path.data());
+
+    return temp;
+}
 
 // 构造新命令行
 std::wstring GetCommand(LPWSTR param)
